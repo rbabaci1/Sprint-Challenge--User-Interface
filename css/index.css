@@ -81,9 +81,14 @@ header nav a {
 }
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
     margin: 25px 0;
+}
+.jumbo-img {
+    margin-top: 35px;
+    width: 100%;
 }
 
 .top-content {
@@ -93,11 +98,37 @@ header {
     margin: 20px 0;
     border-bottom: 1px dashed black;
 }
-
+.about-top-content {
+    padding: 0 18px 20px 18px;
+    border-bottom: 1px dashed black; 
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-middle-content .box {
+    height: 100%;
+    width: 46%;
+    margin: 25px 15px;
+    border-bottom: 1px dashed black;
+}
+.box-img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+button {
+    margin: 15px 0;
+    padding: 6px 15px;
+    font-size: 12px;
+    border-radius: 7px;
+    border: 2px solid black;
 }
 
 .middle-content {
@@ -169,6 +200,10 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content {
+    margin: 20px 15px 35px 15px;
 }
 
 footer {
